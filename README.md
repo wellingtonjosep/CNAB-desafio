@@ -2,8 +2,6 @@
 
 > ### Projeto criado em outubro de 2022 na escola de programação Kenzie Academy Brasil.
 ----------
-> ### Deploy
----------
 ## Decições tomadas no andamento do projeto
 >### 1. Primeiramente criei o app documents para começar o projeto.
 >### 2. Não achei necessario criar a documentação pelo swagger e ultilizarei o readme.md.
