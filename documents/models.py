@@ -15,7 +15,7 @@ class transaction(models.TextChoices):
 class Document(models.Model):
     type = models.CharField(max_length=22)
     date = models.CharField(max_length=9)
-    value = models.CharField(max_length=11)
+    value = models.IntegerField()
     cpf = models.CharField(max_length=12)
     card = models.CharField(max_length=13)
     hour = models.CharField(max_length=7)

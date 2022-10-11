@@ -7,6 +7,8 @@ class DocumentSerializer(serializers.ModelSerializer):
         fields = ["id","type","date","value","cpf","card","hour","store_owner","store_name"]
     
     def create(self, validated_data):
+        validated_data["value"] = int(validated_data["value"]) / 100
+
         if (validated_data["type"] == "1"):
             validated_data["type"] = "Débito"
         if (validated_data["type"] == "2"):
